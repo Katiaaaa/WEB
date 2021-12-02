@@ -1,0 +1,29 @@
+.registration {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(0,0,0, 0.5);
+    z-index: 999;
+}
+
+.registration__content {
+    padding: 25px;
+    background: white;
+    border-radius: 16px;
+    /*font-family: none;*/
+}
+.registration__content label, .registration__content h1{
+    font-size: 110%;
+    text-align: center;
+}
+
+.registration__content button{
+    font-size: 90%;
+    display: block; margin: 0 auto;
+    
+}

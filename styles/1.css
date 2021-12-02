@@ -1,0 +1,397 @@
+img{ width: 50%;}
+
+.content, footer, body,button, a{
+    font-size: 110%;
+    font-family: Raleway-VariableFont;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.flex img{ width: 80%;}
+.page1{
+    text-align: center;
+}
+h1{font-size: 150%; text-align: center;}
+.page1_0{ 
+    background: white;
+    color:rgb(75, 94, 158);
+    padding: 7% 2% 14% 2%;
+    margin: 0;
+}
+.page1_0 h1{
+    padding: 5%;
+    border: 3px solid rgb(75, 94, 158);
+}
+.page1_2, .page5{
+    
+    background: rgb(112, 136, 214);
+    color: rgb(255, 255, 255);
+    background-size: 100% ;
+    -webkit-background-size: 100%; 
+    padding: 10% 2% 10% 2%;
+}
+
+
+.page2{
+    background: white;
+    padding: 5% 2% 5% 2%;
+    margin: 0;
+    background-size: 100% ;
+    -webkit-background-size: 100%; 
+    overflow: hidden;
+}
+.page2_2{margin-left: 10px;text-align: center;text-transform: uppercase; }
+.page2_1{float: left;}
+.page2_1 strong{text-transform: uppercase;  font-weight: 700;}
+
+.page3{
+    padding: 15% 2% 15% 2%;
+    margin: 0;
+    overflow: hidden;
+    text-align: right;
+    background:url(../images/people-2587069_960_720.jpg);
+    background-size: 100% ;
+    -webkit-background-size: 100%; 
+}
+.page3 strong{text-transform: uppercase;  font-weight: 700;}
+.page4_info h1{color: rgb(255, 255, 255);}
+.page4{
+    padding: 8% 2% 8% 2%;
+    overflow: hidden;
+    margin: 5%;
+    background: rgb(112, 136, 214);
+    background-size: 100% ;
+    -webkit-background-size: 100%;
+}
+.page4_info label {text-transform:uppercase ;}
+.page5{margin: 2%;}
+.page5_2{text-align: center;}
+.block {
+    background: rgba(255, 255, 255, 0.644);
+    color: #000;
+    text-align: center;
+    padding: 1%;
+    border-radius: 10px;
+    margin: 1%;
+    transition: 1s;
+}
+.block:hover, button:hover, .page9_6 h5:hover {
+    transform: scale(1.1); /* Увеличить масштаб */
+   }
+button{transition: 1s;}
+.button_style{margin-left: 30%;}
+
+
+.buttonback2{
+    position:relative;
+    
+    left: 40%; top: 1vw;right: -16em;
+    padding: 2% 5%;
+    color: #000; 
+    background-color: #ccc;
+    border-radius: 5px;
+    text-decoration: none;
+    font-style: normal;
+}
+.buttonback1{
+       
+    left: 40%; top: 1vw;right: -16em;
+    padding: 2% 5%;
+    color: #000; 
+    background-color: #ccc;
+    border-radius: 5px;
+    text-decoration: none;
+    font-style: normal;
+}
+.buttonback1:hover, .buttonback2:hover {color: rgb(0, 0, 0);}
+
+.card{
+    width: 18rem;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;}
+.page7{
+    padding: 5% 2% 5% 2%;
+}
+
+.page8 h1{
+    font-family: Raleway-VariableFont;
+    font-size: 200%;
+    text-align: center;
+    margin: 0;
+    padding: 5% 0 0 0;
+    text-transform: uppercase;
+}
+.ttt{
+    position:relative;
+    border-radius: 50%;
+    width: 20%;
+    height: 15%;
+    left: 40%; top: 7vw;
+}
+p{margin: 0;}
+.page8 p{
+    margin: 1%;
+    font-size: 20px;
+}
+.page8_1{
+    font-family: Raleway-VariableFont;
+    text-align: center;
+    border-radius: 5em;
+    margin: 0 6% 5% 6%;
+    padding: 10% 2% 2% 2%;
+    border:2px solid #ccc;
+    background: rgb(112, 136, 214);
+}
+footer div{margin: 2%;}
+.icon{margin: 2%;}
+footer{
+    background: rgb(112, 136, 214);
+
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 3% 0 0 1%;
+}
+.page9{
+    margin: 1% 2% ;
+}
+
+.page9 p, .page9 li{text-align: center;}
+.page9_1, .page9_2, .page9_3{
+    border: 3px solid rgb(112, 136, 214);
+    border-radius: 3px;
+    
+    margin: 1% 1%;
+    padding: 1% 0;
+    text-align: center;
+    background: rgba(142, 169, 221, 0.514);
+}
+.page9_6 h5{
+    border: 3px solid rgb(112, 136, 214);
+    border-radius: 3px;
+    
+    margin: 1% 5%;
+    padding: 1% 0;
+    text-align: center;
+    transition: 0.5s;
+    text-transform: uppercase;
+}
+.page9_6{
+    display: flex;
+    align-items: center;
+    justify-content: center; /*space-around*/
+    flex-wrap: wrap;
+}
+.page9_4{
+    
+    display: flex;
+  align-items: center;justify-content: center; 
+    width: 100%;
+
+    
+}
+
+
+.page10{
+    font-family: Raleway-VariableFont;
+    padding: 5% 2% 10% 2%;
+    margin: 0;
+    background-size: 100% ;
+    -webkit-background-size: 100%; 
+    overflow: hidden;
+    text-align: center;
+    background:url(../images/PicsArt2.jpg);
+}
+.page10 h1{color: rgb(255, 255, 255);}
+.page10_1, .page10_2{
+    background: rgba(196, 196, 255, 0.8);
+    margin: 2% 2% 2% 2%;
+    transition: 1s;
+}.page10_1:hover, .page10_2:hover{transform: scale(1.1);}
+.page11 h1{font-weight:bold;}
+.page11{
+    font-family: Raleway-VariableFont;
+    margin: 50px;
+    text-align: center;
+    min-width: 0;
+    overflow-x: hidden;
+}
+.page11 img{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.wrapper{
+    margin: 5%;
+}
+@font-face {
+    font-family: Arquitecta; /* Гарнитура шрифта */
+    src: url(../font/Arquitecta.otf); /* Путь к файлу со шрифтом */
+   }
+
+
+@media screen and (max-width: 600px){
+   .display_none{
+       display: none;
+   }
+}
+/***********Блоки курса***************/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300&subset=latin,cyrillic);
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+html, body {
+  height: 100%;
+  margin:0;
+  padding:0;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+/* demo контейнер */
+.demo {
+    max-width: 1024px;
+    padding: 0 20px;
+    margin: 5% 10%;
+}
+/* скрываем чекбоксы и блоки с содержанием */
+.hide,
+.hide + label ~ div {
+    display: none;
+}
+/* вид текста label */
+.hide + label {
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    display: inline-block;
+}
+/* вид текста label при активном переключателе */
+.hide:checked + label {
+    color: rgb(0, 0, 0);
+    border-bottom: 0;
+}
+/* когда чекбокс активен показываем блоки с содержанием  */
+.hide:checked + label + div {
+    display: block; 
+    background: #efefef;
+    -moz-box-shadow: inset 3px 3px 10px #7d8e8f;
+    -webkit-box-shadow: inset 3px 3px 10px #7d8e8f;
+    box-shadow: inset 3px 3px 10px #7d8e8f;
+    margin-left: 20px;
+    padding: 10px;
+    /* чуточку анимации при появлении */
+     -webkit-animation:fade ease-in 0.5s; 
+     -moz-animation:fade ease-in 0.5s;
+     animation:fade ease-in 0.5s; 
+}
+/* анимация при появлении скрытых блоков */
+@-moz-keyframes fade {
+    from { opacity: 0; }
+to { opacity: 1 }
+}
+@-webkit-keyframes fade {
+    from { opacity: 0; }
+to { opacity: 1 }
+}
+@keyframes fade {
+    from { opacity: 0; }
+to { opacity: 1 }   
+}
+.hide + label:before {
+    background-color: #98c7f7;
+    color: #fff;
+    content: "\002B";
+    display: block;
+    float: left;
+    font-size: 14px; 
+    font-weight: bold;
+    height: 16px;
+    line-height: 16px;
+    margin: 3px 5px;
+    text-align: center;
+    width: 16px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+.hide:checked + label:before {
+    content: "\2212";
+}
+/***********Бокова панель меню***************/
+        
+        .menu{
+            position: fixed;
+            left: 0; top: 0;
+            width: 30%;
+            height: 100%;
+            display: flex;
+            justify-content:center;
+            align-items: center;
+             
+            background: rgba(196, 196, 255, 0.8);
+            background-size: 100% ;
+            -webkit-background-size: 100%;
+            transition: 1s;
+            transform: translateX(-105%);
+            z-index: 99;
+            
+        }
+        .menu_act{
+            transform: translateX(0%);
+            position: fixed;
+            left: 0; top: 0;
+            width: 30%;
+            height: 100%;
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            transition: 1s;
+            z-index: 99;
+             
+            background: rgba(196, 196, 255, 0.8);
+            background-size: 100% ;
+            -webkit-background-size: 100%; 
+        }
+        .menu-list{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 50%;
+            flex-direction: column;
+            
+        }
+        .menu-list a{
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: 700;
+            color: black;
+           
+        }
+        .menu-btn{
+            width: 40px;
+            height: 40px;
+            background-color: #ccc;
+            position: absolute;
+            right: -65px; top: 10px;
+            
+
+        }
+        .fa-bars{
+            text-decoration: none;            
+            font-weight: 700;
+            color: rgb(231, 228, 228);
+            padding: 1.5% 2%;
+            border-radius: 5px;
+            
+        }
+        .fa-bars:hover{color: rgb(231, 228, 228);}

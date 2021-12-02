@@ -1,0 +1,18 @@
+@font-face {
+    font-family: Alice-Regular; /* Гарнитура шрифта */
+    src: url(../font/Alice-Regular.ttf); /* Путь к файлу со шрифтом */
+   }
+@font-face {
+    font-family: Raleway-Italic; /* Гарнитура шрифта */
+    src: url(../font/Raleway-Italic-VariableFont_wght.ttf); /* Путь к файлу со шрифтом */
+   }  
+@font-face {
+    font-family: Raleway-VariableFont; /* Гарнитура шрифта */
+    src: url(../font/Raleway-VariableFont_wght.ttf); /* Путь к файлу со шрифтом */
+   } 
+   @font-face {
+    font-family: MPLUSRounded1c-ExtraBold; /* Гарнитура шрифта */
+    src: url(../font/MPLUSRounded1c-ExtraBold.ttf); /* Путь к файлу со шрифтом */
+   }  
+   
+   
